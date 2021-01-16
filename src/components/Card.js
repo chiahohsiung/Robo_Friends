@@ -9,14 +9,14 @@ const Card = (props) => {
 	return (
 		// .dib { display: inline-block; 
 		// Template literals are string literals allowing embedded expressions
-		<div className="tc bg-light-purple dib br3 pa3 ma2 grow">
-			<img alt='robot' src={`https://robohash.org/${id}?size=100x100`}/>
+		<div className="tc bg-light-green dib br3 pa3 ma2 grow">
+			<img alt='robot' src={`https://robohash.org/${id}?`}/>
 			<div>
 				<h2>{name}</h2>
 				<p>{email}</p>
 			</div>
 		</div>
 	);
-}
+};
 
 export default Card;

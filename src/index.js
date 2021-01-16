@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // without file extension implies it's a js file
-import App from './App';
+import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 import "tachyons"
 

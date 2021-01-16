@@ -12,6 +12,6 @@ const CardList = ({ robots }) => {
 			{ cardArray }
 		</div>
 	);
-}
+};
 
 export default CardList;
